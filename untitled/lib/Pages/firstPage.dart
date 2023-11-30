@@ -23,7 +23,7 @@ class BookList extends StatelessWidget {
                 onTap: () {
                   print("tapped");
                   Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Book("Harry Potter","J.K. Rowling",8.6,"assets/images/harry potter.jpg","200BDT","1250BDT","................")),
+                    MaterialPageRoute(builder: (context) => Book("Harry Potter","J.K. Rowling",8.6,"assets/images/harry potter.jpg","200BDT","1250BDT","Harry Potter is a series of novels by British author J. K. Rowling. The novels follow Harry Potter, an 11-year-old boy who discovers he is the son of famous wizards and will attend Hogwarts School of Witchcraft and Wizardry. Harry learns of an entire society of wizards and witches.")),
                   );
                 }
             ),
@@ -42,7 +42,7 @@ class BookList extends StatelessWidget {
                 ),
                 onTap: () {
                   Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Book("Agni Purush","Kazi Anwar Hossain",9.5,"assets/images/agni.jpg","60BDT","200BDT","..........")),
+                    MaterialPageRoute(builder: (context) => Book("Agni Purush","Kazi Anwar Hossain",9.5,"assets/images/agni.jpg","60BDT","200BDT","Regarded as one of the All-Time Best Rana novel by readers.")),
                   );
                 }
             ),
