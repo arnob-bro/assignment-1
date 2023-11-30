@@ -40,8 +40,8 @@ class Book extends StatelessWidget{
             hint: Text("price List"),
             icon: Icon(Icons.keyboard_arrow_down),
             items: [
-              DropdownMenuItem(child: Text(" $newspaperprice"), value: "NewsPaper Print $newspaperprice",),
-              DropdownMenuItem(child: Text(" $whitepaperprice"), value:"White Paper Print $whitepaperprice" ,),
+              DropdownMenuItem(child: Text("NewsPaper Print $newspaperprice"), value: "NewsPaper Print $newspaperprice",),
+              DropdownMenuItem(child: Text("White Paper Print $whitepaperprice"), value:"White Paper Print $whitepaperprice" ,),
             ],
             onChanged: (value) {
 
